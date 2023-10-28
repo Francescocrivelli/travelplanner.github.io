@@ -44,4 +44,4 @@ class TravelPlanner:
         total_cost = prompt_cost + completion_cost
         return print(f"Cost of request: ${total_cost:.6f}")
 
-TravelPlanner(start_date="2021-10-01", end_date="2021-10-02", location="New York").GetTravelPlan()
+# TravelPlanner(start_date="2021-10-01", end_date="2021-10-02", location="New York").GetTravelPlan()
