@@ -1,7 +1,7 @@
 {
   "name": "calhacks2023",
   "private": "true",
-  "homepage": "https://www.francescocrivelli.com/travelplanner.github.io/",
+  "homepage": "http://francescocrivelli.github.io/travelplanner.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
