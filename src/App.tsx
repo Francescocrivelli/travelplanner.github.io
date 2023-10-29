@@ -26,7 +26,7 @@ function App() {
 
   const mutation = useMutation<TravelPlanResponse, unknown, TravelPlanRequest>(
     // Access-Control-Allow-Origin': '*
-    (data) => axios.post('http://localhost:5200/get_travel_plan', { header: { 'Access-Control-Allow-Origin': '*' }, data: data }).then((res) => res.data),
+    (data) => axios.post('https://www.francescocrivelli.com/travelplanner.github.io/get_travel_plan', { header: { 'Access-Control-Allow-Origin': '*' }, data: data }).then((res) => res.data),
     {
       onSuccess: (data) => {
         console.log(data);

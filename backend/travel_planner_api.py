@@ -17,7 +17,7 @@ def get_travel_plan():
 if __name__ == '__main__':
     app.run(
         port=5200, 
-        host='localhost',
+        # host='localhost',
         debug=True
     )
 
